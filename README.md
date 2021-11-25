@@ -1,6 +1,6 @@
 # apirest de proyecto contabilidad
 ```
-base de datos, se encuentra en https://github.com/andrekasjas/BaseDatosAgronomo
+base de datos, se encuentra en https://github.com/andrekasjas/BaseDatosContabilidad
 ```
 ## comando utilizados:
 ```
