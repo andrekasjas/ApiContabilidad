@@ -13,3 +13,15 @@ npm i express pg
 ```
 ```
 npm i nodemon -D
+
+
+### Routes
+
+'/administradores'
+'/administrador/:id'
+'/ventas'
+'/venta/:id'
+'/productos'
+'/producto/:id'
+'/gastosoinversion'
+'/gastooinversion/:id'
