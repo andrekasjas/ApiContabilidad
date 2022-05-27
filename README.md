@@ -1,4 +1,6 @@
 # apirest de proyecto contabilidad
+### Host
+-[View](https://apicontabilidad.herokuapp.com/productos)
 ```
 base de datos, se encuentra en https://github.com/andrekasjas/BaseDatosContabilidad
 ```
