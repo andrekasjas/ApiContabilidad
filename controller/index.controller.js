@@ -2,15 +2,15 @@ const { Pool } = require('pg');
 const path = require('path');
 const fs = require('fs-extra');
 const pool = new Pool({
-    host: 'localhost',
-    user: 'postgres',
-    password: '1923',
-    database: 'contabilidad',
-    port: '5432'
-    // connectionString: process.env.DATABASE_URL,
-    // ssl: {
-    //     rejectUnauthorized: false
-    // }
+    // host: 'localhost',
+    // user: 'postgres',
+    // password: '1923',
+    // database: 'contabilidad',
+    // port: '5432'
+    connectionString: process.env.DATABASE_URL,
+    ssl: {
+        rejectUnauthorized: false
+    }
 });
 
 const getAdministradores = async(req, res) => {
